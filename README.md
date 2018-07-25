@@ -23,7 +23,7 @@ Publication 800-53 controls identified for securing Controlled Unclassified
 Information (CUI).  
   
 Benchmark ID:  RHEL-7  
-Benchmark Version:  0.1.39  
+Benchmark Version:  0.1.40  
   
 XCCDF Version:  1.1  
   
@@ -58,11 +58,9 @@ Example Playbook
 Run `ansible-galaxy install Ansible-Security-Compliance.rhel7-role-nist-800-171-cui` to
 download and install the role. Then you can use the following playbook snippet.
 
-
     - hosts: all
       roles:
          - { role: Ansible-Security-Compliance.rhel7-role-nist-800-171-cui }
-
 
 Then first check the playbook using (on the localhost):
 
@@ -72,7 +70,6 @@ To deploy it, use (this may change configuration of your local machine!):
 
     ansible-playbook -i "localhost," -c local playbook.yml
 
-
 License
 -------
 
@@ -81,4 +78,7 @@ BSD-3-Clause
 Author Information
 ------------------
 
-This Ansible remediation role has been generated from the body of security policies developed by the SCAP Security Guide project. Please see https://github.com/OpenSCAP/scap-security-guide/blob/master/Contributors.md for an updated list of authors and contributors.
+This Ansible remediation role has been generated from the body of security
+policies developed by the SCAP Security Guide project. Please see
+[https://github.com/OpenSCAP/scap-security-guide/blob/master/Contributors.md](https://github.com/OpenSCAP/scap-security-guide/blob/master/Contributors.md)
+for an updated list of authors and contributors.
