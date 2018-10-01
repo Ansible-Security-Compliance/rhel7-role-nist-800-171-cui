@@ -23,7 +23,7 @@ Publication 800-53 controls identified for securing Controlled Unclassified
 Information (CUI).  
   
 Benchmark ID:  RHEL-7  
-Benchmark Version:  0.1.40  
+Benchmark Version:  0.1.41  
   
 XCCDF Version:  1.1  
   
